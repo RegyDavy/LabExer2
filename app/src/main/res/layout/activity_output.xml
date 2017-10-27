@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.caampued.labexer2.Output">
+
+    <Button
+        android:id="@+id/btn_LoadShared"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:onClick="shared"
+        android:layout_centerHorizontal="true"
+        android:text="load shared preferences"
+        android:layout_marginTop="40dp"/>
+    <Button
+        android:id="@+id/btn_LoadIntern"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:onClick="internal"
+        android:layout_centerHorizontal="true"
+        android:text="Load internal storage"
+        android:layout_marginTop="90dp" />
+    <Button
+        android:id="@+id/btn_Clear"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:onClick="clearText"
+        android:text="CLear"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="140dp"/>
+    <Button
+        android:id="@+id/btn_goBack"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="back"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="220dp"/>
+    <TextView
+        android:id="@+id/displayPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="300dp"/>
+    <TextView
+        android:id="@+id/displayUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="280dp"/>
+    <TextView
+        android:id="@+id/displayclear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="350dp"/>
+
+
+</RelativeLayout>
